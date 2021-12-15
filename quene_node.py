@@ -41,4 +41,4 @@ class quene_node:
         self.next = next
 
     def toString(self):
-        return "Node: "+self.data
+        return "Node: "+str(self.data)

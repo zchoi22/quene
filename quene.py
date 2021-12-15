@@ -1,14 +1,13 @@
-from quene_node import quene_node as qn
 
 class quene:
 
-    def __int__(self):
+    def __init__(self):
         self.first = None
         self.last = None
-        self.size = 0
+        self.length = 0
 
     def enquene(self, element):
-        if self.size == 0:
+        if self.length == 0:
             self.first = element
             self.last = element
 
@@ -17,17 +16,25 @@ class quene:
             element.set_prev(self.last)
             self.last = element
 
+        self.length+=1
+
     def dequene(self):
-        self.first.get_next().set_prev(None)
-        temp = self.first
-        self.first = self.first.get_next()
-        return temp
+        try:
+            self.first.get_next().set_prev(None)
+            temp = self.first
+            self.first = self.first.get_next()
+            self.length-=1
+            return temp
+        except:
+            temp = self.first
+            self.first = None
+            return temp
 
     def isEmpty(self):
-        return self.size==0
+        return self.length==0
 
     def size(self):
-        return self.size
+        return self.length
 
     def peek(self):
         return self.first

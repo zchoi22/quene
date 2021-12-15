@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6404b48c-6032-434c-83c2-bb76127633b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quene.py" beforeDir="false" afterPath="$PROJECT_DIR$/quene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quene_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/quene_node.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
